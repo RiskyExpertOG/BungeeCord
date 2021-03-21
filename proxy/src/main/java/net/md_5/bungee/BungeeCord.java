@@ -528,7 +528,7 @@ public class BungeeCord extends ProxyServer
     @Override
     public String getName()
     {
-        return "BungeeCord";
+        return "MC-PORTAL";
     }
 
     @Override
@@ -675,7 +675,7 @@ public class BungeeCord extends ProxyServer
     @Override
     public String getGameVersion()
     {
-        return ProtocolConstants.SUPPORTED_VERSIONS.get( 0 ) + "-" + ProtocolConstants.SUPPORTED_VERSIONS.get( ProtocolConstants.SUPPORTED_VERSIONS.size() - 1 );
+        return "supports versions: " + ProtocolConstants.SUPPORTED_VERSIONS.get( 0 ) + " - " + ProtocolConstants.SUPPORTED_VERSIONS.get( ProtocolConstants.SUPPORTED_VERSIONS.size() - 1 );
     }
 
     @Override
