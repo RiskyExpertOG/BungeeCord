@@ -113,7 +113,7 @@
                 <artifactId>scriptus</artifactId>
                 <version>0.4.1</version>
                 <configuration>
-                    <format>git:BungeeCord-Bootstrap:1.17-R0.1-SNAPSHOT:%s:1</format>
+                    <format>git:BungeeCord-Bootstrap:1.17-R0.1-SNAPSHOT:e0e2383:1</format>
                 </configuration>
                 <executions>
                     <execution>
